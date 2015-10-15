@@ -6,7 +6,7 @@ dhcpcd
 
 echo 'Mounting devices...'
 # LDM
-ldm -d -u 1000 -g 1000 -p /mnt -m 0777,0777
+ldm -d -u 1000 -g 1000 -p /mnt -m 0740,0740
 
 echo 'Making your desktop look fancy...'
 # Set background
